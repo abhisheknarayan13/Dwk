@@ -1,0 +1,536 @@
+
+/* Reset default margin and padding */
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body
+{
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+/* Top Header */
+.top-header {
+  background-color: #000000;
+  padding: 0.3em 0;
+}
+.top-right-side {
+  float: right;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: left;
+  margin-top: 0.5em;
+}
+.top-right-side a {
+  color: #fff;
+}
+.btn-lg-reverse {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 0.3em 1em;
+  transition: all 1ms;
+}
+.btn-lg-reverse:hover {
+  background-color: #fff; 
+  counter-reset: #000;
+}
+/*-------------------------service section------------------------------*/
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.navbar
+{
+  background-image: linear-gradient(to right,#fff ,#fff);
+  padding: 0 !important;
+}
+  .navbar-nav li{
+    padding: 0 10px;
+    }
+  .navbar-nav li a{
+  color:#010101 ;
+  font-weight: 600;
+  font-size: 0.8em;
+  float: right;
+  text-align: left;
+}
+.navbar-toggler{
+  outline: none !important;
+}
+ /*------------banner section------------------ */
+#banner {
+    background-image: linear-gradient(to right,#000000 ,#0f0e0e);
+    color: #fff;
+  }
+.left-banner-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6em 0;
+}
+.promo-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+  }
+.promo-title img {
+    height: 70px;
+  }
+  .highlight-text {
+    color: rgb(202, 182, 51); /* Change to your desired color */
+    font-weight: bold; /* Optionally add font weight */
+}
+.digital-text {
+  color: rgba(17, 218, 229, 0.905); /* Change to your desired color */
+  font-weight: bold; /* Optionally add font weight */
+  margin-left: 0.2em;
+}
+.left-banner-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5em;
+}
+.left-banner-content .slider-btns {
+  display: flex;
+  gap: 10px;
+}
+.btn-main {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 0.3em 1em;
+  color: #000000;
+}
+.btn-lg {
+  font-size: 1.4rem;
+}
+.btn-main:hover {
+  background-color: transparent;
+  color: #fff;
+}
+/*------------------------clients carousel ------------------*/
+.imgpng {
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+  max-height: 40px; /* Limit the height of the images */
+  margin: 5px; /* Add margin around the images */
+}
+/*-----------------------industries-sec-------------------------*/
+/* Styles for the section */
+.industries-sec {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center; /* Center align the content */
+}
+.sub-heading-wrapper {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.sub-heading-wrapper h2 {
+  margin-bottom: 1.2em;
+}
+/* Styles for the headings */
+section.industries-sec {
+  padding: 5em 0;
+}
+.industries-sec .industry-item {
+  border: 1px solid #000;
+  padding: 5em 0.6em;
+  text-align: center;
+  margin: 0.6em 0;
+}
+.industries-sec .industry-item a {
+  color: #000;
+}
+/*------------------------services-sec--------------------------*/
+section.services-sec {
+  background-color: #f2f2f2;
+  padding: 5em 0;
+}
+.services-left h3 {
+  font-size: 2rem;
+  text-align: left;
+}
+.services-text {
+  margin-bottom: 20px;
+}
+.services-right ul {
+  padding: 0;
+}
+.services-right ul li {
+  list-style-type: none;
+  background-color: #1f1f1f;
+  padding: 1em 0.3em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.services-right ul li a {
+  color: #fff;
+  font-size: 2rem;
+}
+.button {
+  background-color: #41393947;
+  border: none;
+  color: white;
+  padding: 13px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*------------------------page-content-------------------------*/
+/* Reset default margin and padding */
+.text {
+  margin: 0 auto;
+  max-width: 800px;
+}
+h5 {
+  margin-top: 50px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+.content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+p {
+  color: #555;
+  line-height: 1.6;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0px;
+}
+/*------------------------case-studies-sec-------------------------*/
+.case-studies-section {
+  text-align: center;
+  background-color: #ffffff; /* White background color */
+  padding: 20px;
+  border-radius: 10px;
+}
+.small-heading {
+  font-size: 1em; /* Small heading size */
+  margin-bottom: 10px; /* Add space between heading parts */
+}
+.big-heading {
+  font-size: 1.5em; /* Big heading size */
+  margin-bottom: 10px; /* Add space between heading parts */
+}
+.case-study1 {
+  width: 350px;
+  height: 350px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background-color: #000000; /* White background color */
+  color: #fff; /* Black text color for contrast */
+  border: 2px solid rgb(78, 68, 68);
+}
+.case-study2 {
+  width: 350px;
+  height: 350px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background-color: #fffefe; /* White background color */
+  color: #000000; /* Black text color for contrast */
+  border: 2px solid rgb(78, 68, 68);
+}
+.case-study-box:nth-child(2) {
+  border: 2px solid #000000; /* Black border for the second box */
+}
+.case-study-box:nth-child(odd) {
+  background-color: #000000; /* Black background color for odd boxes */
+  color: #ffffff; /* White text color for odd boxes */
+}
+.case-study-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/*------------------------contact-us-------------------------*/
+.supercharge-section {
+  background-color: #000;
+  color: #fff;
+  padding: 70px 0;
+  text-align:left;
+}
+.supercharge-section h2 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+}
+.left-content {
+    flex: 2;
+}
+.right-content {
+    flex: 1;
+    text-align: right;
+    margin-right: 150px;
+}
+.slider-btns {
+  margin-top:2px;
+  }
+  /*------------------------testimonial-sec-------------------------*/
+.testimonial-section {
+  text-align: center;
+  background-color: #ffffff; /* Light yellow background color */
+  color: #fff;
+  padding: 40px 0;
+}
+.testimonial-heading {
+  font-size: 1em; /* Small heading size */
+  margin-bottom: 0px;
+  color: #000;
+}
+.testimonial {
+  display: flex;
+  margin: 200px ;
+  padding: 50px;
+  background-color: #acb890;
+  border-radius: 25px;
+  color: #fff;
+}
+.testimonial-content {
+  flex-grow: 1;
+  text-align: left;
+  margin-right: 100px;
+  margin-left:100px;
+}
+.client-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #acb890;
+  color: #ffffff;
+}
+.client-details {
+  display: flex;
+  align-items: center;
+}
+.client-details img {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Maintain aspect ratio */
+  border-radius: 70%; /* For rounded corners */
+  margin-right: 20px;
+}
+.client-logo img {
+  max-width: 100px; /* Adjust the maximum width as needed */
+  height: 50px; /* Maintain aspect ratio */
+}
+/*------------------------ trusted-support-section------------------------------- */
+.trusted-support-section {
+  background-color: #d3f0d3; /* Light green background color */
+  padding: 100px 0;
+  text-align: center;
+}
+.trusted-support-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.trusted-support-section p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.border-box {
+  border: .5px solid #000; /* Black border */
+  padding: 1px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.logo-box img {
+  max-width: 100%;
+  height: auto;
+}
+.client-logos {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+.client-carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.client-carousel img {
+  max-width: 150px; /* Adjust size as needed */
+  margin: 0; /* Remove any default margin */
+}
+.vertical-line {
+  border-left: 1px solid #000; /* Add vertical line */
+  height: 50px; /* Adjust height as needed */
+  margin: 10px 0; /* Adjust spacing as needed */
+font-weight: bold;
+}
+/* ----------digital-marketing-services---------------*/
+.accordion {
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-top: 2px solid #666;
+  border-bottom: 2px solid #666;
+  border-left: none;
+  border-right:none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.accordion:after {
+  content: '\002B';
+  color: #fffdfd;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+h6 {
+  margin-top: 50px;
+  font-size: 24px;
+  color: #333;
+  text-align:left;
+}
+/*---------------------------------------------blog-sec----------------------------- */
+    .blog-section {
+      background-color: #ecececae;
+      padding: 5em 0;
+      text-align:auto;
+  }
+  .view-all-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0c0d0d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  }
+  .blog-post img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+  }
+  .blog-post h3 {
+      margin-top: 0;
+      font-size: 1.2em;
+  }
+  .blog-post .date {
+      font-size: 0.9em;
+      color: #666;
+  }
+  .blog-post .read-more {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #0b0c0c;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background-color 0.3s ease;
+}
+  .blog-post .read-more:hover {
+      background-color: #000000;
+  }
+
+  .blog-meta {
+    display: flex;
+    margin-top: 1.5em;
+    gap: 10px;
+    justify-content: space-between;
+  }
+/*-----------client-------- */
+  .featured-in {
+    background-color: #f9f9f9;
+    padding: 05px 0;
+    text-align: center;
+}
+.section-title {
+    font-size: 30px;
+    margin-top:2rem;
+}
+.logos-container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.company-logo {
+  width: 220px;
+  height: auto;
+  margin: 20px;
+}
+/*---------footer----------------*/
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer h3 {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer ul li {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer p {
+  margin: 5px 0;
+}
+.logo {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+
+}
+
+
+
+
+
